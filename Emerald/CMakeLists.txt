@@ -3,7 +3,7 @@
 #
 
 # Add source to this project's executable.
-add_executable (Emerald "Emerald.cpp" "Emerald.h")
+add_executable (Emerald "Emerald.cpp" "Emerald.h" "Content.cpp" "Content.h" "Context.cpp" "Context.h" "Types.h" "Types.cpp")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET Emerald PROPERTY CXX_STANDARD 20)

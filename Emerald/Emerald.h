@@ -1,8 +1,10 @@
-﻿// Emerald.h : Include file for standard system include files,
-// or project specific include files.
-
-#pragma once
+﻿#pragma once
 
 #include <iostream>
+#include <fstream>
+#include "Context.h"
+#include "Content.h"
 
-// TODO: Reference additional headers your program requires here.
+int main();
+char* fileToBuffer(const char*, int*);
+void createCNC(std::vector<Context*>*, std::vector<Content*>*, char*, int*);
