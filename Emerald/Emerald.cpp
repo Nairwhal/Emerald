@@ -2,7 +2,7 @@
 
 int main() {
 	int* sampleCPPBufferLength = new int;
-	char* sampleCPPBuffer = fileToBuffer("C:/Users/noahs/source/repos/Emerald/Emerald/HelloWorld.mrld", sampleCPPBufferLength);
+	char* sampleCPPBuffer = fileToBuffer("/home/nairwhal/CLionProjects/Emerald/Emerald/HelloWorld.mrld", sampleCPPBufferLength);
 	std::vector<Context*>* contexts = new std::vector<Context*>{};
 	std::vector<Content*>* contents = new std::vector<Content*>{};
 
